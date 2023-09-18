@@ -7,7 +7,7 @@ using SalesWebMvcCs.Data;
 
 namespace SalesWebMvcCs.Services
 {
-    public class SellerService 
+    public class SellerService
     {
         private readonly SalesWebMvcCsContext _context;
 
@@ -19,6 +19,12 @@ namespace SalesWebMvcCs.Services
         public List<Seller> FindAll()
         {
             return _context.Seller.ToList();
+        }
+
+        public void Insert(Seller obj)
+        {
+            _context.Add(obj);
+            _context.SaveChanges();
         }
     }
 }
