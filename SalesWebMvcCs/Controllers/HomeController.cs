@@ -1,11 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using SalesWebMvcCs.Models;
-using System;
-using System.Collections.Generic;
+﻿using System;
 using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
 using SalesWebMvcCs.Models.ViewModels;
+using Microsoft.AspNetCore.Mvc;
 
 namespace SalesWebMvcCs.Controllers
 {
@@ -18,15 +14,14 @@ namespace SalesWebMvcCs.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Sales Web MVC App";
-            ViewData["Criador"] = "João Guilherme França";
+            ViewData["Message"] = "Essa aplicação foi desenvolvida para estudos";
 
             return View();
         }
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "Informações para contato.";
 
             return View();
         }

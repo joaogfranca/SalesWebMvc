@@ -1,9 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System;
 using System.Threading.Tasks;
 using SalesWebMvcCs.Services;
+using Microsoft.AspNetCore.Mvc;
 
 namespace SalesWebMvcCs.Controllers
 {
