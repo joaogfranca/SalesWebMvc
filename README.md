@@ -1,6 +1,6 @@
-# Projeto Página de Vendas com MVC
+# Projeto Post
 
-Projeto desenvolvido durante meus estudos no curso "C# Completo", do pelo professor Nelio Alves.
+Projeto desenvolvido para fins acadêmicos.
 
 ## Descrição
 
@@ -16,10 +16,6 @@ No desenvolvimento do projeto foram utilizadas tecnologias como: C#, HTML, ASP.N
 * MySQL
 * EntityFramework
 * ASP.NET (MVC)
-
-## Autores
-
-[@João França](https://www.linkedin.com/in/dev-joao-franca/)
 
 ## Conhecimentos desenvolvidos e utilizados
 
